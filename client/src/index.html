@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="AppCtrl as vm">
+<head>
+    <base href="/">
+    <title ng-bind="vm.pageTitle"></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
+    <link rel="stylesheet" type="text/css" href="<%= file %>"/>
+    <% }); %>
+
+    <!-- compiled JavaScript --><% vendorScripts.forEach( function ( file ) { %>
+    <script type="text/javascript" src="<%= file %>"></script>
+    <% }); %>
+
+    <!-- compiled JavaScript --><% appScripts.forEach( function ( file ) { %>
+    <script type="text/javascript" src="<%= file %>"></script>
+    <% }); %>
+
+</head>
+<body>
+<div id="alertBox" class="alert alert-danger" data-ng-show="error">
+    <button type="button" class="close" ng-click="clearError()"> &times;</button>
+    <span ng-bind="error"></span>    
+</div>
+<div ui-view="access"></div>
+<div ui-view=""></div>
+<toaster-container></toaster-container>
+
+</body>
+</html>

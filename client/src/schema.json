@@ -1,0 +1,129 @@
+{
+   "_id": "form.offerte",
+   "_rev": "19-1d5d36d697e1269ea0a37046931a19c9",
+   "name": "Form offerte",
+   "type": "form",
+   "data": {
+       "schema": {
+           "type": "object",
+           "title": "Offerte",
+           "properties": {
+               "ragsoc": {
+                   "title": "Ragione Sociale",
+                   "type": "string"
+               },
+               "ind": {
+                   "title": "indirizzo",
+                   "type": "string"
+               },
+               "cap": {
+                   "title": "cap",
+                   "type": "string"
+               },
+               "city": {
+                   "title": "comune",
+                   "type": "string"
+               },
+               "regione": {
+                   "title": "regione",
+                   "type": "string"
+               },
+               "nazone": {
+                   "title": "nazone",
+                   "type": "string"
+               },
+               "tel": {
+                   "title": "tel",
+                   "type": "string"
+               },
+               "mail": {
+                   "title": "email",
+                   "type": "string"
+               },
+               "rif": {
+                   "title": "persona riferimento", 
+                   "type": "string"
+               },
+               "num": {
+                   "title": "num",
+                   "type": "integer"
+               },
+               "ogg": {
+                   "title": "oggetto",
+                   "type": "string"
+               },
+               "imp": {
+                   "title": "impianto",
+                   "type": "string"
+               },
+               "segnda": {
+                   "title": "segnalato da",
+                   "type": "string"
+               },
+               "segda": {
+                   "title": "seguito da",
+                   "type": "string"
+               },
+               "tipo": {
+                   "title": "tipologia",
+                   "type": "string"
+               },
+
+               "cont": {
+                   "title": "contatto",
+                   "type": "string"
+               },
+               
+               "note": {
+                   "title": "note",
+                   "type": "string"
+               },
+               "scadoff": {
+                   "title": "scadenza Offerta",
+                   "type": "string"
+               },
+               
+               "dainva": {
+                   "title": "da inviare a mezzo di",
+                   "type": "string"
+               },
+               "tipooff": { 
+                   "title": "tipo offerta",
+                   "type": "string"
+               },
+               "allpdf": {
+                   "title": "allegati pdf",
+                   "type": "string"
+               },                                                                          
+               
+               "stato": {
+                   "title": "Stato",
+                   "type": "string",
+                    "enum": ["in attesa di realizzazione","in essere","accettata","persa"] 
+                   
+               }
+           },
+           "required": [
+               
+               
+               "ragsoc",
+               "tel",
+               "rif",
+               "num","imp","tipo","tipooff"
+               
+           ]
+       },
+       "form": [
+           "ragsoc","ind","cap","city","regione","nazone","tel","mail","rif",  "num", "ogg","imp", 
+           "segnda","segda","tipo","cont","note", "scadoff", 
+           "dainva","tipooff","allpdf", "stato"
+           
+           {
+               "type": "submit",
+               "style": "btn-info",
+               "title": "Salva"
+           }
+       ]
+   }
+}
+
