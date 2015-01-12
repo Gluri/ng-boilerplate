@@ -13,7 +13,7 @@ To deploy the app, clone the repository:
 Navigate to the client directory and install the client dependencies:
 
 <pre>
-cd myApp/client
+cd your_dir/client
 bower install
 npm install
 </pre>
