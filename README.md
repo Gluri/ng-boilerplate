@@ -29,6 +29,9 @@ Serve the app using node or nodemon
 nodemon server.js
 </pre>
 
+<h2>Issue</h2>
+The command line "bower install" on dir client install ionic v1.0.0-beta.5b, for resolve more issue the good one is v1.0.0-beta-14.
+
 This project is heavily inspired by
 <ul>
 <li><a href="https://github.com/ngbp/ngbp">ngbp</a></li>
