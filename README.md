@@ -1,6 +1,6 @@
 # ng-boilerplate
 ng-boilerplate project's with ionic and more featured.<br />
-Full stack angular app using pouchDB/couchDB to store data and handle security. The app is a boilerplate to quickly start an angular web-app with a backend which tries to be as independent of a server as possible.
+Full stack angular app using pouchDB/couchDB to store data and handle security. 
 
 <h2>Installation</h2>
 
