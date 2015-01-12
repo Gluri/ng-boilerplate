@@ -2,29 +2,32 @@
 ng-boilerplate project's with ionic and more featured 
 Full stack angular app using pouchDB/couchDB to store data and handle security. The app is a boilerplate to quickly start an angular web-app with a backend which tries to be as independent of a server as possible.
 
-Installation
+<h2>Installation</h2>
 
 The core of the app is an angular&ionic app served by a minimal express app. 
 To deploy the app, clone the repository:
 
-git clone https://github.com/Gluri/ng-boilerplate/ your_dir
+<pre>git clone https://github.com/Gluri/ng-boilerplate/ your_dir</pre>
 
 
 Navigate to the client directory and install the client dependencies:
 
+<pre>
 cd myApp/client
 bower install
 npm install
-
+</pre>
 
 Navigate to the serverdirectory and install the server dependencies:
 
+<pre>
 cd ../server
 npm install
+</pre>
 Serve the app using node or nodemon
-
+<pre>
 nodemon server.js
-
+</pre>
 
 This project is heavily inspired by
 
