@@ -30,6 +30,6 @@ nodemon server.js
 </pre>
 
 This project is heavily inspired by
-
-<a href="https://github.com/ngbp/ngbp">ngbp</a>
-<a href="https://github.com/arnoutaertgeerts/ng-pouch" target="_blank">ng-pouch</a>
+<ul>
+<li><a href="https://github.com/ngbp/ngbp">ngbp</a></li>
+<li><a href="https://github.com/arnoutaertgeerts/ng-pouch" target="_blank">ng-pouch</a></li>
