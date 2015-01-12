@@ -73,7 +73,7 @@ module.exports = {
     	      'vendor/tv4/tv4.js',
 
             //Angular plugins
-            'vendor/ionic/js/ionic.bundle.js',
+            'vendor/ionic/release/js/ionic.bundle.js',
             'vendor/ngCordova/dist/ng-cordova.js',
             'vendor/angular-cookies/angular-cookies.min.js',
             'vendor/angular-ui-grid/ui-grid.js',
@@ -94,10 +94,10 @@ module.exports = {
             'vendor/angular-form-for/dist/form-for.css',
             'vendor/angularjs-toaster/toaster.css',
             'vendor/angular-ui-grid/ui-grid.min.css',
-            'vendor/ionic/css/ionicons.min.css'
+            'vendor/ionic/release/css/ionicons.min.css'
     ],
     fonts: [
-            'vendor/ionic/fonts/*',
+            'vendor/ionic/release/fonts/*',
 
     ],
     assets: [
