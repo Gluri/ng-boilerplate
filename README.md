@@ -30,7 +30,7 @@ nodemon server.js
 </pre>
 
 <h2>Issue</h2>
-The command line "bower install" on dir client install "ionic v1.0.0-beta.5b", for resolve more issue the good one is <a href="https://github.com/driftyco/ionic/releases/tag/v1.0.0-beta.14" target="_blank">"v1.0.0-beta-14"</a>.
+The command line "bower install", on dir client, install "ionic v1.0.0-beta.5b", for resolve more issue the good one is <a href="https://github.com/driftyco/ionic/releases/tag/v1.0.0-beta.14" target="_blank">"v1.0.0-beta-14"</a>.
 
 <h2>Inspiration</h2>
 This project is heavily inspired by
